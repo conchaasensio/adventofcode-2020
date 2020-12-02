@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "advent of code challenge",
   "main": "index.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
     "jest": "^26.6.3"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll"

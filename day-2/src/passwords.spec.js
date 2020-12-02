@@ -1,5 +1,8 @@
 const { test, expect } = require('@jest/globals');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(true).toBe(true);
+import { countValidPasswords } from './passwords';
+
+test('blabla', () => {
+  countValidPasswords('13-15 c: cqbhncccjsncqcc');
+  expect(countValidPasswords('13-15 c: cqbhncccjsncqcc')).toBe(0);
 });
