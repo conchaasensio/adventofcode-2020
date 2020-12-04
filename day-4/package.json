@@ -1,0 +1,19 @@
+{
+  "name": "password-processing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Luis Rovirosa Mairlot <luisrovirosa@gmail.com>",
+  "license": "ISC"
+}
